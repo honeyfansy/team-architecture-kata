@@ -1,0 +1,29 @@
+{
+  "name": "@team-architecture-kata/backend",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@team-architecture-kata/shared": "*",
+    "cheerio": "^1.2.0",
+    "dotenv": "^16.4.0",
+    "multer": "^2.2.0",
+    "openai": "^4.60.0",
+    "uuid": "^10.0.0",
+    "ws": "^8.17.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.0"
+  }
+}

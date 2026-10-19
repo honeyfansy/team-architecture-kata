@@ -1,0 +1,35 @@
+{
+  "saved_configs": [
+    {
+      "name": "精简配置（3 角色）",
+      "interventionMode": "smart_pause",
+      "roleMode": "simple",
+      "roles": [
+        { "id": "domain_architect" },
+        { "id": "system_architect" },
+        { "id": "quality_analyst" }
+      ],
+      "detailedRoles": []
+    },
+    {
+      "name": "完整配置（6 角色）",
+      "interventionMode": "smart_pause",
+      "roleMode": "detailed",
+      "roles": [
+        { "id": "domain_architect" },
+        { "id": "system_architect" },
+        { "id": "quality_analyst" },
+        { "id": "technology_architect" },
+        { "id": "data_architect" },
+        { "id": "infra_architect" },
+        { "id": "risk_reviewer" }
+      ],
+      "detailedRoles": [
+        { "id": "technology_architect" },
+        { "id": "data_architect" },
+        { "id": "infra_architect" },
+        { "id": "risk_reviewer" }
+      ]
+    }
+  ]
+}
